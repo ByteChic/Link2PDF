@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "URL to PDF Converter",
+    "version": "1.0",
+    "description": "Converts the current page URL to PDF using ConvertAPI",
+    "permissions": ["activeTab", "storage"],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
